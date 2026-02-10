@@ -27,7 +27,8 @@ An interactive terminal-based probability calculator built with Python. Compute 
 
 ### 📸 Demo
 
-> *(Add a screenshot or GIF of your terminal here)*
+> <img width="1846" height="446" alt="image" src="https://github.com/user-attachments/assets/e03a1abc-38f3-4dc8-b068-61b657f9380f" />
+
 > 
 > Tip: Use [asciinema](https://asciinema.org/) or [terminalizer](https://www.terminalizer.com/) to record your terminal.
 
@@ -78,7 +79,7 @@ What is the probability that X < 75, given μ=70 and σ=5?
   x            : 75
   μ (mean)     : 70
   σ (std dev)  : 5
-
+```
 <a name="español"></a>
 ## 🇪🇸 Español
 
@@ -98,7 +99,8 @@ Calculadora de probabilidades interactiva para terminal, construida con Python. 
 
 ### 📸 Demo
 
-> *(Agrega aquí una captura de pantalla o GIF de tu terminal)*
+> <img width="1846" height="446" alt="image" src="https://github.com/user-attachments/assets/e32b1ef2-da02-45fd-9b00-5172ea89aca1" />
+
 >
 > Tip: Usa [asciinema](https://asciinema.org/) o [terminalizer](https://www.terminalizer.com/) para grabar tu terminal.
 

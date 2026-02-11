@@ -1,0 +1,58 @@
+# ══════════════════════════════════════════════════════════════════════
+#  Probability Calculator — Requirements
+# ══════════════════════════════════════════════════════════════════════
+#
+#  Este archivo lista todas las dependencias necesarias para ejecutar
+#  el proyecto. Instala todo con: pip install -r requirements.txt
+#
+# ══════════════════════════════════════════════════════════════════════
+
+# ─── Dependencias obligatorias ───────────────────────────────────────
+# Estas librerías son necesarias para que la aplicación funcione
+
+rich>=13.0.0
+# Interfaz de terminal con colores, tablas y paneles decorativos
+# Documentación: https://rich.readthedocs.io/
+
+
+# ─── Dependencias opcionales ─────────────────────────────────────────
+# Estas librerías mejoran la funcionalidad pero no son estrictamente
+# necesarias para usar la aplicación básica
+
+scipy>=1.10.0
+# Cálculos estadísticos avanzados y validación de resultados
+# Usado para:
+#   - Verificar cálculos durante testing
+#   - Función normal_ppf (inversa de la CDF normal)
+# Si no la instalas, las funcionalidades básicas seguirán funcionando
+
+
+# ─── Dependencias de desarrollo ──────────────────────────────────────
+# Solo necesarias si vas a contribuir al proyecto o correr tests
+
+pytest>=7.0.0
+# Framework de testing
+# Ejecuta tests con: pytest tests/ -v
+
+pytest-cov>=4.0.0
+# Cobertura de código para tests
+# Ejecuta con: pytest --cov=calculators tests/
+
+
+# ═════════════════════════════════════════════════════════════════════
+#  NOTAS DE INSTALACIÓN
+# ═════════════════════════════════════════════════════════════════════
+#
+#  Instalación básica (solo lo necesario):
+#    pip install rich
+#
+#  Instalación completa (recomendado):
+#    pip install -r requirements.txt
+#
+#  Instalación en entorno virtual (mejor práctica):
+#    python -m venv venv
+#    source venv/bin/activate        # Linux / macOS
+#    venv\Scripts\activate           # Windows
+#    pip install -r requirements.txt
+#
+# ═════════════════════════════════════════════════════════════════════
